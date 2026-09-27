@@ -1,0 +1,15 @@
+# ffmpeg binaries are shipped via GitHub Release, not committed
+ffmpeg.exe
+ffprobe.exe
+dist/
+*.zip
+
+# logs / temp
+*.log
+.clean_done.log
+
+# WorkBuddy project metadata
+.workbuddy/
+check.log
+token_check.txt
+ff_*.txt
